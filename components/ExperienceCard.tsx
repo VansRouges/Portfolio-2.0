@@ -60,7 +60,7 @@ export default function ExperienceCard({ }: Props) {
                     {experience.isCurrentlyWorkingHere
                         ? "Present"
                         : new Date(experience.dateEnded).toDateString()} */}
-                        Started work: April 3rd, 2022  - Ended: June 29th, 2022
+                        Started work: March, 2022  - Ended: July, 2022
                 </p>
 
                 <ul className='list-disc space-y- ml-5 text-lg h-48 text-white'>
@@ -118,7 +118,7 @@ export default function ExperienceCard({ }: Props) {
                     {experience.isCurrentlyWorkingHere
                         ? "Present"
                         : new Date(experience.dateEnded).toDateString()} */}
-                        Started work: Aug 22nd, 2022 - Ended: Sept 22nd, 2022
+                        Started work: Aug, 2022 - Ended: Sept, 2022
                 </p>
 
                 <ul className='list-disc space-y- ml-5 text-lg h-48 text-white'>
