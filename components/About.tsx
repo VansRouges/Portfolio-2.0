@@ -28,7 +28,7 @@ export default function About({ }: Props) {
                 duration: 1.2,
             }}
             whileInView={{ opacity: 1, x:0 }}
-            // viewport={{ once:true }}
+            viewport={{ once:true }}
             src='https://cdn.sanity.io/images/wpot5oxi/production/1ba14cde26af0662769ddd8002cde0541fd8d451-720x960.jpg'
             className='flex relative top-11 flex-shrink-0 w-40 h-40 rounded-full object-cover
             md:rounded-lg md:w-64 md:h-96 xl:w-[500px] xl:h-[600px] xs:top-14 my-14'
