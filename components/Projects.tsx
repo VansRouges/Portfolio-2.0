@@ -21,7 +21,7 @@ export default function Projects({ }: Props) {
         </h3>
 
         <div className='relative w-full h-[620px] flex overflow-x-scroll overflow-y-hidden snap-x
-        snap-madatory z-20 scrollbar  scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
+        snap-madatory z-20 scrollbar  scrollbar-track-[#48bf53]/20 scrollbar-thumb-[#004d25]/80'>
             <div
                 className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen' 
             >
@@ -57,19 +57,19 @@ export default function Projects({ }: Props) {
                             className=''
                             width='32'
                             height='32'
-                            src='https://cdn.sanity.io/images/wpot5oxi/production/a564e80cbd4a740999df0aca27698eaf6a3f63cf-200x174.png'
+                            src='https://cdn.sanity.io/images/wpot5oxi/production/8730d76efbd4a40490416180ab8389876feaca1c-225x225.png'
                             alt=''
                         />
-                        <Image
+                        {/* <Image
                             className=''
                             width='32'
                             height='32'
                             src='https://cdn.sanity.io/images/wpot5oxi/production/a564e80cbd4a740999df0aca27698eaf6a3f63cf-200x174.png'
                             alt=''
-                        />
+                        /> */}
                     </div>
 
-                    <p className='text-lg text-center md:text-left'>
+                    <p className='text-base text-center md:text-left'>
                     Zoidac is a decentralized Market making use of Web3 technologies aimed at enabling Artists and Creatives market their work and get paid in cryptocurrency. This platform currently accepts Sol and interacts with all wallets built on the Solana Blockchain. 
                     This repository will only contain the Frontend Build.
                     </p>
@@ -112,16 +112,16 @@ export default function Projects({ }: Props) {
                             className=''
                             width='32'
                             height='32'
-                            src='https://cdn.sanity.io/images/wpot5oxi/production/a564e80cbd4a740999df0aca27698eaf6a3f63cf-200x174.png'
+                            src='https://cdn.sanity.io/images/wpot5oxi/production/52a71a36c086861d1d81e1368265c6429bed873a-225x225.png'
                             alt=''
                         />
-                        <Image
+                        {/* <Image
                             className=''
                             width='32'
                             height='32'
                             src='https://cdn.sanity.io/images/wpot5oxi/production/a564e80cbd4a740999df0aca27698eaf6a3f63cf-200x174.png'
                             alt=''
-                        />
+                        /> */}
                     </div>
 
                     <p className='text-base text-center'>
@@ -159,21 +159,21 @@ export default function Projects({ }: Props) {
                             className=''
                             width='32'
                             height='32'
-                            src='https://cdn.sanity.io/images/wpot5oxi/production/a564e80cbd4a740999df0aca27698eaf6a3f63cf-200x174.png'
+                            src='https://cdn.sanity.io/images/wpot5oxi/production/342c6aa3ce18f0d19f0e3349734566ac60fea7f9-210x240.png'
                             alt=''
                         />
                         <Image
                             className=''
                             width='32'
                             height='32'
-                            src='https://cdn.sanity.io/images/wpot5oxi/production/a564e80cbd4a740999df0aca27698eaf6a3f63cf-200x174.png'
+                            src='https://cdn.sanity.io/images/wpot5oxi/production/52a71a36c086861d1d81e1368265c6429bed873a-225x225.png'
                             alt=''
                         />
                         <Image
                             className=''
                             width='32'
                             height='32'
-                            src='https://cdn.sanity.io/images/wpot5oxi/production/a564e80cbd4a740999df0aca27698eaf6a3f63cf-200x174.png'
+                            src='https://cdn.sanity.io/images/wpot5oxi/production/05e6ac6cc4faf214edd2b5d077e1a5acfcce6195-229x221.png'
                             alt=''
                         />
                     </div>

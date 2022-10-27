@@ -10,7 +10,7 @@ type Props = {
 export default function ExperienceCard({ }: Props) {
   return (
     <div className='w-full h-[570px] flex space-x-4 overflow-x-scroll p-10 snap-x snap-mandatory
-    scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80'>
+    scrollbar scrollbar-track-[#48bf53]/20 scrollbar-thumb-[#004d25]/80'>
 
         <article className='flex flex-col rounded-lg items-center space-y-1 flex-shrink-0
         w-[400px] md:w-[500px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 
@@ -42,14 +42,14 @@ export default function ExperienceCard({ }: Props) {
                     />
                     <Image
                         className='h-10 w-10 rounded-full'
-                        src='https://cdn.sanity.io/images/wpot5oxi/production/342c6aa3ce18f0d19f0e3349734566ac60fea7f9-210x240.png'
+                        src='https://cdn.sanity.io/images/wpot5oxi/production/52a71a36c086861d1d81e1368265c6429bed873a-225x225.png'
                         width='40'
                         height='40'
                         alt=''
                     />
                     <Image
                         className='h-10 w-10 rounded-full'
-                        src='https://cdn.sanity.io/images/wpot5oxi/production/342c6aa3ce18f0d19f0e3349734566ac60fea7f9-210x240.png'
+                        src='https://cdn.sanity.io/images/wpot5oxi/production/05e6ac6cc4faf214edd2b5d077e1a5acfcce6195-229x221.png'
                         width='40'
                         height='40'
                         alt=''
@@ -60,12 +60,12 @@ export default function ExperienceCard({ }: Props) {
                     {experience.isCurrentlyWorkingHere
                         ? "Present"
                         : new Date(experience.dateEnded).toDateString()} */}
-                        Started work... - Ended...
+                        Started work: April 3rd, 2022  - Ended: June 29th, 2022
                 </p>
 
                 <ul className='list-disc space-y- ml-5 text-lg h-48 text-white'>
-                    <li>Summary Points</li>
-                    <li>Summary Points</li>
+                    {/* <li>designed and built the user interface</li> */}
+                    {/* <li>Summary Points</li> */}
                 </ul>
             </div>
         </article>
@@ -118,12 +118,12 @@ export default function ExperienceCard({ }: Props) {
                     {experience.isCurrentlyWorkingHere
                         ? "Present"
                         : new Date(experience.dateEnded).toDateString()} */}
-                        Started work... - Ended...
+                        Started work: Aug 22nd, 2022 - Ended: Sept 22nd, 2022
                 </p>
 
                 <ul className='list-disc space-y- ml-5 text-lg h-48 text-white'>
-                    <li>Summary Points</li>
-                    <li>Summary Points</li>
+                    {/* <li>built the wallet, sign up and login interface</li> */}
+                    {/* <li>Summary Points</li> */}
                 </ul>
             </div>
         </article>
