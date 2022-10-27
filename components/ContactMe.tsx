@@ -58,7 +58,7 @@ const onSubmit: SubmitHandler<Inputs> = (formData) => {
                 onSubmit={handleSubmit(onSubmit)}
                 className='flex flex-col space-y-2 w-fit mx-auto'
             >
-                <div className='flex space-x-1'>
+                <div className='flex xs:-space-x-4 md:space-x-1'>
                     <input 
                         {...register('name')} 
                         placeholder='Name' 

@@ -36,7 +36,10 @@ export default function About({ }: Props) {
         <div className='space-y-5 px-0 md:px-10'>
             <h4 className='text-3xl font-semibold'>Here is a <span className='underline decoration-[#F7AB0A]/50'>little</span>{" "} background</h4>
             <p className='text-base'>
-                I'm Vance, I'm an exceptional developer, very detail-oriented and organized. Started my tech journey two years ago since then I've picked up various languages, contributed to open source, worked with other developers and designers, built a score of projects both real world(businesses) and personal so I have the experience to deliver within set time.
+                I'm Vance. 
+                Started my tech journey two years ago since then I've picked up various languages, contributed to open source, 
+                worked with other developers and designers, built a score of projects both real world(businesses) and personal so I have the experience to deliver within set time.
+                My preferred  weapons of choice are <span className='text-[#ffad01] animate-pulse ease-in-out duration-200'>Javascript, React, Nextjs, TailwindCSS and NodeJS</span>  for backend. 
             </p>
         </div>
     </motion.div>

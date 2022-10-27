@@ -27,7 +27,7 @@ export default function Projects({ }: Props) {
             >
                 <motion.img
                     initial={{
-                        y: -200,
+                        y: -100,
                         opacity: 0
                     }}
                     transition={{ duration: 1.2 }}
@@ -69,7 +69,7 @@ export default function Projects({ }: Props) {
                         /> */}
                     </div>
 
-                    <p className='text-base text-center md:text-left'>
+                    <p className='text-sm text-center md:text-left'>
                     Zoidac is a decentralized Market making use of Web3 technologies aimed at enabling Artists and Creatives market their work and get paid in cryptocurrency. This platform currently accepts Sol and interacts with all wallets built on the Solana Blockchain. 
                     This repository will only contain the Frontend Build.
                     </p>
@@ -82,7 +82,7 @@ export default function Projects({ }: Props) {
             >
                 <motion.img
                     initial={{
-                        y: -300,
+                        y: -100,
                         opacity: 0
                     }}
                     transition={{ duration: 1.2 }}
@@ -124,7 +124,7 @@ export default function Projects({ }: Props) {
                         /> */}
                     </div>
 
-                    <p className='text-base text-center'>
+                    <p className='text-sm text-center'>
                         Solana Pay is an Online platform that sells Anime gifs and allows users to make purchase in cryptocurrencies such as $SOL and USDC in realtime.
                     </p>
 
@@ -136,7 +136,7 @@ export default function Projects({ }: Props) {
             >
                 <motion.img
                     initial={{
-                        y: -300,
+                        y: -100,
                         opacity: 0
                     }}
                     transition={{ duration: 1.2 }}
@@ -178,7 +178,7 @@ export default function Projects({ }: Props) {
                         />
                     </div>
 
-                    <p className='text-base text-center md:text-left'>
+                    <p className='text-sm text-center md:text-left'>
                         Sound Code is a Christ Embassy Ministry application that will aid the identification of any digital audio/sound released in and by the ministry. 
                         This technology uses audio fingerprinting to enable users easily index/search audio/video materials with short recordings. 
                         This solution is solely targeted for Our Ministry and Ministry Content.
