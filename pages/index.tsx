@@ -11,7 +11,7 @@ import WorkExperience from '../components/WorkExperience'
 
 export default function Home() {
   return (
-    <HorizontalScroll className='bg-slate-50 h-screen text-[#004d25] snap-y snap-mandatory
+    <div className='bg-slate-50 h-screen text-[#004d25] snap-y snap-mandatory
      overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-[#48bf53]/20
       scrollbar-thumb-[#004d25]/80'>
       <Head>
@@ -44,6 +44,6 @@ export default function Home() {
       <section id='contact' className='snap-start'>
         <ContactMe />
       </section>
-    </HorizontalScroll>
+    </div>
   )
 }
