@@ -11,7 +11,7 @@ import WorkExperience from '../components/WorkExperience'
 
 export default function Home() {
   return (
-    <div className='bg-slate-50 h-screen text-[#004d25] snap-y snap-mandatory
+    <div className='bg-black h-screen text-[#004d25] 
      overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-[#48bf53]/20
       scrollbar-thumb-[#004d25]/80'>
       <Head>
@@ -21,29 +21,35 @@ export default function Home() {
       <Header />
 
       {/* Hero */}
-      <section id='hero' className='snap-start'>
+      <HorizontalScroll className='snap-y snap-mandatory'>
+        
+        <section id='hero' className='snap-start w-[100vw] h-[100vh]'>
           <Hero />
-      </section>
+        </section>
+        <section id='about' className='snap-center w-[100vw] h-[100vh]'>
+          <About />
+        </section>
+        <section id='experience' className='snap-center w-[100vw] h-[100vh]'>
+          <WorkExperience />
+        </section>
 
-      <section id='about' className='snap-center'>
-        <About />
-      </section>
+        <section id='skills' className='snap-start w-[100vw] h-[100vh]'>
+          <Skills />
+        </section>
 
-      <section id='experience' className='snap-center'>
-        <WorkExperience />
-      </section>
+        <section id='projects' className='snap-start w-[100vw] h-[100vh]'>
+          <Projects />
+        </section>
 
-      <section id='skills' className='snap-start'>
-        <Skills />
-      </section>
+        <section id='contact' className='snap-start w-[100vw] h-[100vh]'>
+          <ContactMe />
+        </section>
+      </HorizontalScroll>
+      
 
-      <section id='projects' className='snap-start'>
-        <Projects />
-      </section>
+      
 
-      <section id='contact' className='snap-start'>
-        <ContactMe />
-      </section>
+      
     </div>
   )
 }
