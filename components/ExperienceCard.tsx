@@ -105,13 +105,13 @@ export default function ExperienceCard({ }: Props) {
                         height='40'
                         alt=''
                     />
-                    <Image
+                    {/* <Image
                         className='h-10 w-10 rounded-full'
                         src='https://cdn.sanity.io/images/wpot5oxi/production/e7f68959cc0da64eac17e4f9b5dca9d5ba6bb2e1-200x122.png'
                         width='40'
                         height='40'
                         alt=''
-                    />
+                    /> */}
                 </div>
                 <p className='uppercase py-2 text-gray-300 xs:text-xs'>
                     {/* {new Date(experience.dateStarted).toDateString()} -{" "}

@@ -39,7 +39,7 @@ export default function About({ }: Props) {
                 I'm Vance. 
                 Started my tech journey two years ago since then I've picked up various languages, contributed to open source, 
                 worked with other developers and designers, built a score of projects both real world(businesses) and personal so I have the experience to deliver within set time.
-                My preferred  weapons of choice are <span className='text-[#ffad01] animate-pulse ease-in-out duration-200'>Javascript, React, Nextjs, TailwindCSS and NodeJS</span>  for backend. 
+                My preferred tools of choice are <span className='text-[#ffad01] animate-pulse ease-in-out duration-200'>Javascript, React, Nextjs and TailwindCSS</span>
             </p>
         </div>
     </motion.div>
